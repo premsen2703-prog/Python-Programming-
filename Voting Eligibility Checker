@@ -1,0 +1,16 @@
+#program to check voting eligibility
+age = int(input("Enter your age: "))
+#if check if the age entered is valid
+if age < 0:
+    print("Invalid age! Age cannot be negative. ")
+elif age >= 18:
+    print("you are eligible to vote! Please cast your responsibly.")
+else:
+    year_left = 18 - age
+    print(F"You are not eligible to vote yet. You need to wait {year_left}")
+
+o/p:-
+Enter your age: 21
+you are eligible to vote! Please cast your responsibly.
+
+=== Code Execution Successful ===
