@@ -1,3 +1,13 @@
+name = input("Enter your name:")
+age = int(input("Enter your age: "))
+college =input("Enter your college/university: ")
+skill = input("Enter your favorite progamming language: ")
+print("\n--- Personal Introduction ---")
+print(f"Hello everyone! My name is {name}.")
+print(f"I am {age} years old and I am currently studing at {college}.")
+print(f"I am passionate about coding, and my favorite programming language is {skill}")
+
+o/p:-
 Enter your name:Prem sen
 Enter your age: 21
 Enter your college/university: Gyan Ganga Institue Of Technology And Science
