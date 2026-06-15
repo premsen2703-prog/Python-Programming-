@@ -1,0 +1,13 @@
+#program to check if a number is Even or Odd
+number = int(input("Enter an integer: "))
+
+#If remainder when divided by 2 is 0, it's even
+if number % 2 == 0:
+    print(f"{number} is an Even number.")
+else:
+    print(f"{number} is an Odd number.")
+o/p:-
+Enter an integer: 5
+5 is an Odd number.
+
+=== Code Execution Successful ===
