@@ -1,0 +1,15 @@
+#program to check given number is a positive or a negative number 
+num = int(input("Enter one number: "))
+# if cheeck for positive and negative
+if num < 0:
+    print(f"{num} is a negative number")
+elif num > 0:
+    print(f"{num} is a positive number")
+else:
+    print("Enter a valid number ")
+
+o/p:-
+Enter one number: -1
+-1 is a negative number
+
+=== Code Execution Successful ===
