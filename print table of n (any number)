@@ -1,0 +1,21 @@
+#program to find a sum of n numbers
+n = int(input("Enter a number: "))
+# for loop calculate the sum from zero to till number n
+for i in range(1,11):
+    product = n * i 
+    print(f"{n}*{i}={product}")
+
+o/p:-
+Enter a number: 19
+19*1=19
+19*2=38
+19*3=57
+19*4=76
+19*5=95
+19*6=114
+19*7=133
+19*8=152
+19*9=171
+19*10=190
+
+=== Code Execution Successful ===
