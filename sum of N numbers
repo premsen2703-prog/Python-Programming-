@@ -1,0 +1,13 @@
+#program to find a sum of n numbers
+n = int(input("Enter a number: "))
+sum = 0 
+# for loop calculate the sum from zero to till number n
+for i in range(0,n+1):
+    sum = sum + i
+print(f"sum of n numbers is: {sum}")
+
+o/p:-
+Enter a number: 5
+sum of n numbers is: 15
+
+=== Code Execution Successful ===
