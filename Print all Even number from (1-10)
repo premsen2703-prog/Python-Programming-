@@ -1,0 +1,8 @@
+(* program to print all even numbers from (1-100) *)
+for i in range(1,10):
+    if i % 2 == 0:
+        print(i,end =" ")
+o/p:-
+2 4 6 8 
+=== Code Execution Successful ===
+
