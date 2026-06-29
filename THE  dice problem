@@ -1,0 +1,43 @@
+[Naive Approach] Using if-else Statement
+In a normal 6-faced dice, 1 is opposite to 6, 2 is opposite to 5, and 3 is opposite to 4. Hence a normal if-else-if block can be placed 
+def oppositeFaceOfDice(n):
+    if n == 1:
+        return 6
+    elif n == 2:
+        return 5
+    elif n == 3:
+        return 4
+    elif n == 4:
+        return 3
+    elif n == 5:
+        return 2
+    else:
+        return 1
+
+n = 2
+print(oppositeFaceOfDice(n))
+
+Output
+5
+Time Complexity: O(1)
+Auxiliary Space: O(1)
+
+[Expected Approach] Using Sum of Two Sides
+The idea is based on the observation that the sum of two opposite sides of a cubical dice is equal to 7. So, just subtract the given n from 7 and print the answer.
+def oppositeFaceOfDice(n):
+    
+    # Stores number on opposite face
+    # of dice
+    ans = 7 - n
+    return ans
+
+n = 2
+print(oppositeFaceOfDice(n))
+
+Output
+5
+Time Complexity: O(1)
+Auxiliary Space: O(1)
+
+
+
