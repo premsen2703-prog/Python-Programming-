@@ -1,0 +1,14 @@
+def sumofdigit(n):
+    sum = 0
+    while n != 0 : 
+        digit = n % 10
+        sum += digit
+        n //=10
+    return sum
+
+if __name__=="__main__":
+    n = 12345
+    print(sumofdigit(n))
+
+o/p:-
+15
