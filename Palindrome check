@@ -1,0 +1,18 @@
+num = int(input("Enter a number:"))
+orignal = num
+reverse =  0
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+    
+if orignal == reverse :
+    print("it is palindrome.")
+else:
+    print("it not a palindrome.")
+
+o/p:-
+Enter a number:121
+it is palindrome.
+
+=== Code Execution Successful ===

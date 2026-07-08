@@ -1,0 +1,39 @@
+n = 5
+for i in range(n):
+    for j in range(n):
+        print(" ", end = " ")
+    for j in range(i+1):
+        print("*", end = " ")
+    for j in range(i):
+        print("*", end = " ")
+    print()
+    n = n -1
+    i=i-1
+o/p:-
+          * 
+        * * * 
+      * * * * * 
+    * * * * * * * 
+  * * * * * * * * * 
+  
+n = 5
+
+# Outer loop: Controls the ROWS
+for i in range(n):
+    
+    # Inner loop 1: Prints single leading spaces
+    for j in range(n - i - 1):
+        print(" ", end="")
+        
+    # Inner loop 2: Prints the stars with a trailing space
+    for k in range(i + 1):
+        print("*", end=" ")
+        
+    # Move to the next line
+    print()
+o/p:-
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * *
